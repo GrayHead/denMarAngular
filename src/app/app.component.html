@@ -1,6 +1,10 @@
-<h1>{{title}}</h1>
+<ul>
+  <li>
+    <!--    <Link> -> a href-->
+    <a routerLink="users">to users page</a>
+  </li>
+</ul>
 
-<app-user
-  *ngFor="let u of users"
-  [user]="u"></app-user>
-
+<hr>
+<router-outlet></router-outlet>
+<hr>
